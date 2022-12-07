@@ -8,6 +8,9 @@ for (let i = 1; i <= 100; i++) {
     } else if (i%5 == '') {
         let i = 'Buzz';
         console.log(i);        
+    } else if (i%15 == '') {
+        let i = 'FizzBuzz';
+        console.log(i);
     } else {
         console.log(i);
     }
